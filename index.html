@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Pure city</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/media.css">
+
+
+
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <div class="menu">
+            <div class="logotype">
+                <img class="logo" src="assets/img/logo.jpg" alt="логотип" />
+            </div>
+            <nav class="nav-menu">
+                <a href="#about">
+                    <p>О лагере</p>
+                </a>
+                <a href="#program">
+                    <p>Программа</p>
+                </a>
+                <a href="#map">
+                    <p>Локация</p>
+                </a>
+                <a href="#form">
+                    <p>Заявка</p>
+                </a>
+                <a href="#contacts">
+                    <p>Контакты</p>
+                </a>
+            </nav>
+        </div>
+      <nav id="navbar">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <li><a href="#about">О лагере</a></li>
+            <li><a href="#about">Программа</a></li>
+            <li><a href="#map">Локация</a></li>
+            <li><a href="#form">Заявка</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <a href="#" id="top"><img class="arrow" src="assets/img/arrow.png" alt="" /></a>
+    <main class="main">
+        <!--Banner-->
+        <div class="banner">
+            <div class="banner__block">
+                <div class="banner__block-wrapper">
+                    <h1 class="banner__block-header">Эко-лагерь</h1>
+                    <h2 class="banner__block-subheader">"Молодежь за чистый город!"</h2>
+                    <p class="banner__block-text">
+                        Детский лагерь для молодежи Москвы и Московской области.
+                    </p>
+                    <p class="banner__block-text1">
+                        Дата проведения: 1 июня - 30 июня 2022 года.
+                    </p>
+                    <p class="banner__block-text2">Даты других смен уточняются.</p>
+                    <h1 class="timer">Осталось</h1>
+                    <div id="clockdiv">
+                        <div>
+                            <span class="days"></span>
+                            <div class="small-text">Дней</div>
+                        </div>
+                        <div>
+                            <span class="hours"></span>
+                            <div class="small-text">Часов</div>
+                        </div>
+                        <div>
+                            <span class="minutes"></span>
+                            <div class="small-text">Минут</div>
+                        </div>
+                        <div>
+                            <span class="seconds"></span>
+                            <div class="small-text">Секунд</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="banner__block-btn">
+                            <a href="#form">Подать заявку</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="container">
+            <div class="mainL">
+                <img class="clean" src="assets/pictures/clean.jpg" alt="clean">
+                <div class="blockC" id="about">
+                    <h2>
+                        О лагере
+                    </h2>
+                    <img class="line" src="assets/pictures/line.png" alt="line">
+                    <p>
+                        Мы любим наш город и хотим, чтоб он стал еще более уютным и чистым!
+                        <br />
+                        Чтоб мы, гуляя по парку, пляжу, лесам, наслаждались природой, а не спотыкались о выброшенную
+                        кем-то бутылку!
+                        <h4>Мы хотим:</h4>
+                        1) Приучить молодое поколение к чистоте.
+                        <br />
+                        2) Своим примером показать остальным, что место мусора в урне, а не на дорожках.
+                        <br />
+                        3) Хотим дать детям возможность подработки
+                        <br />
+                        4) Хотим, чтоб ребята отлично провели время в хорошей компании, занятые общественно полезным
+                        делом
+                    </p>
+                </div>
+            </div>
+            <div class="pure-city-program" id="program">
+                <div class="pure-city-text">
+                    <h4> Что будет? </h4>
+                    <div class="pure-city-text-line"></div>
+                    <div>
+                        ● Официальное трудоустройство<br>
+                        ● Пятичасовой рабочий день (9-15)<br>
+                        ● Работа пн-пт (20 смен)<br>
+                        ● Рабочая униформа (жилет, головной убор)<br>
+                        ● Рабочий инвентарь<br>
+                        ● Завтрак и обед<br>
+                        ● Постоянный присмотр за детьми профессиональными вожатыми<br>
+                    </div>
+                </div>
+                <div> <img class="pure-city-picture" src="assets/pictures/program.jpg" alt="альтернативный текст">
+                </div>
+            </div>
+
+            <!--Section addresses start-->
+            <section class="addresses" id="map">
+                <div class="container addresses__bg">
+                    <h2 class="addresses__title">Локации</h2>
+                    <div class="addresses__info">
+
+                        <select size="1" id="point" onchange="change()">
+                            <option value="lub" selected="selected">Люберцы</option>
+                            <option value="reut">Реутов</option>
+                            <option value="pushk">Пушкино</option>
+                        </select>
+
+                        <div class="address__map">
+                            <iframe id="iFrame"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35999.42442390868!2d37.88536520982557!3d55.67222570827555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ac9a24617ddab%3A0xadd8dafa914e4d5f!2z0J_QvtC70LjQs9C-0L0g0KLQkdCeINCa0L7RgNC10L3QtdCy0L4!5e0!3m2!1sru!2srs!4v1651922755343!5m2!1sru!2srs"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                    </div>
+
+                    <h3 class="addresses__contact">Вы можете связаться с нами и предложить адрес для уборки!
+                        <a class="addresses__tg" href="https://web.telegram.org/k/" target="_blank">
+                            <img src="/assets/pictures/footer/tg.png" alt="telegram"></a>
+                    </h3>
+                </div>
+
+            </section>
+            <!--Section addresses end-->
+            <div class="register-blok" id="form">
+                <div class="register-blok__context">
+                    <div class="register-blok__title"> Заявка на участие</div>
+                    <div class="register-blok__columns">
+                        <div class="register-blok__column1">
+                            <div class="register-box3">
+                                <form class="register-box3__direction">
+                                    <label class="register-box3__title" for="name"> Имя </label><br>
+                                    <input class="register-box3__style" type="text" id="name"
+                                        placeholder="Введите имя ребенка"><br>
+                                </form>
+                            </div>
+                            <div class="register-box3">
+                                <form class="register-box3__direction">
+                                    <label class="register-box3__title" for="name"> Фамилия </label><br>
+                                    <input class="register-box3__style" type="text" id="name"
+                                        placeholder="Введите фамилию ребенка"><br>
+                                </form>
+                            </div>
+                            <div class="register-box">
+                                <div class="register-box__data">
+                                    <label class="register-box__title" for="arrival_date">Дата Рождение</label>
+                                    <input class="register-box__style" type="date" id="arrival_date" name="trip-start">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="register-blok__column2">
+                            <div class="register-box3">
+                                <form class="register-box3__direction">
+                                    <label class="register-box3__title" for="fname"> Телефон</label><br>
+                                    <input class="register-box3__style" type="text" id="name"
+                                        placeholder="Введите ваш телефон"><br>
+                                </form>
+                            </div>
+                            <div class="register-box3">
+                                <form class="register-box3__direction">
+                                    <label class="register-box3__title" for="fname"> Электронная почта</label><br>
+                                    <input class="register-box3__style" type="text" id="name"
+                                        placeholder="Введите вашу электруную почту"><br>
+                                </form>
+                            </div>
+                            <div class="register-box3">
+                                <form>
+                                    <label class="register-box3__title" for="name">Выберите смену</label><br>
+                                    <p class="register-box3__check"><input type="checkbox" name="a" value="1417"> 1 июня
+                                        - 30
+                                        июня</p>
+                                    <p class="register-box3__check"><input class="register-box3__check" type="checkbox"
+                                            name="a" value="1680"> 1 июля - 31
+                                        июля</p>
+                                    <p class="register-box3__check"><input class="register-box3__check" type="checkbox"
+                                            name="a" value="1883"> 1 августа - 31
+                                        августа</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register-button">
+                        <input class="register-button__book" type="button" value="Подать заявку на участие">
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+
+        <!--Footer start-->
+        <footer class="footer" id="contacts">
+            <div class="footer__logo"><img src="/assets/pictures/footer/logo.png" alt="logo_earth"></div>
+            <ul class="footer__text">
+                <li class="footer__nav"><a class="footer__name" href="#about">О лагере</a></li>
+                <li class="footer__nav"><a class="footer__name" href="#program">Программа</a></li>
+                <li class="footer__nav"><a class="footer__name" href="#map">Локация</a></li>
+                <li class="footer__nav"><a class="footer__name" href="#form">Заявки</a></li>
+                <li class="footer__nav"><a class="footer__name" href="#contacts">Контакты</a></li>
+            </ul>
+            <div class="footer__network">
+                <div class="footer__nav footer__logo footer__name_img">Мы в социальных сетях</div>
+                <div class="footer__name_img">
+                    <a class="footer__name_img1" href="https://www.instagram.com/ecocamp" target="_blank"><img
+                            src="/assets/pictures/footer/icons8-instagram-48.png" alt="inst"></a>
+                    <a class="footer__name_img1" href="https://www.facebook.com/ecocamp" target="_blank"><img
+                            src="/assets/pictures/footer/icons8-facebook-48.png" alt="facebook"></a>
+                </div>
+            </div>
+        </footer>
+        <!--Footer end-->
+
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
