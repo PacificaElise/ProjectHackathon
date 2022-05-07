@@ -5,13 +5,12 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
-  
-    .logo {
-        left: 3rem;
-        width: 9rem;
-        height: 7.5rem;
-      }
-    
+  .logo {
+    left: 3rem;
+    width: 9rem;
+    height: 7.5rem;
+  }
+
   .nav-menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -41,18 +40,16 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+  .logo {
+    top: 1rem;
+    left: 1rem;
+    width: 9rem;
+    height: 7.5rem;
+  }
 
-    .logo {
-        top: 1rem;
-        left: 1rem;
-        width: 9rem;
-        height: 7.5rem;
-      }
-
-    #navbar {
+  #navbar {
     display: none;
   }
-  
 
   .nav-menu {
     display: -webkit-box;
@@ -68,8 +65,7 @@
   .menu {
     display: none;
   }
-
-
+}
 
 @media screen and (max-width: 768px) {
   .banner__block {
@@ -86,29 +82,26 @@
   }
 }
 
-
 @media (max-width: 470px) {
-    
-    .arrow {
-      width: 2.5rem;
-      height: 2.5rem;
-    }
+  .arrow {
+    width: 2.5rem;
+    height: 2.5rem;
   }
-
+}
 
 @media (max-width: 850px) {
-    .register-blok__columns {
-      flex-direction: column;
-    }
+  .register-blok__columns {
+    flex-direction: column;
   }
-  
-@media (max-width: 650px) {
-  .register-blok__title{
-    font-size: 7vw;
-    }
-  }
+}
 
-  @media screen and (max-width: 768px) {
+@media (max-width: 650px) {
+  .register-blok__title {
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -117,7 +110,7 @@
     line-height: 1;
   }
 }
-  
+
 @media screen and (max-width: 576px) {
   .footer {
     display: flex;
