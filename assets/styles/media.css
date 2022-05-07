@@ -94,3 +94,36 @@
       height: 2.5rem;
     }
   }
+
+
+@media (max-width: 850px) {
+    .register-blok__columns {
+      flex-direction: column;
+    }
+  }
+  
+@media (max-width: 650px) {
+  .register-blok__title{
+    font-size: 7vw;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}
+  
+@media screen and (max-width: 576px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
