@@ -322,14 +322,9 @@ p {
   text-decoration: none;
 }
 
-.addresses__info {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 4fr;
-}
-
 .addresses__contact,
-.addresses__title {
+.addresses__title,
+.address__map {
   margin: 20px 0;
 }
 
